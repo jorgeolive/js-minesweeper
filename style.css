@@ -1,0 +1,41 @@
+.grid {
+ height: 400px;
+ width: 400px;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: grey;
+}
+
+.counter{
+    background-color: black;
+    color: green;
+    display: flex;
+    font-size: large;
+}
+
+.grid div{
+
+    height: 36px;
+    width: 36px;
+    border-style: solid;
+    border-width: 2px;  
+    text-align: center;
+  
+}
+
+.valid {
+    background-color:grey
+}
+
+.unchecked {
+    border-color: lightslategray;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom: black;
+    border-right: black;
+}
+
+.checked {
+    border-color: lightslategray;
+    background-color: darkgray;
+}
